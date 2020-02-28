@@ -87,7 +87,7 @@ body{margin:0}
 	margin: 0 auto;
 	font-size:2.2em;
 	font-weight:300;
-	margin:0 0 30px 0
+	margin:0 0 20px 0
 }
 
 .self{
@@ -95,7 +95,7 @@ body{margin:0}
 	position:relative; 
 	display: block;
 	margin: 0 auto;
-	padding-top:5px
+	padding-bottom:5px
 }
 
 .heading:after{
