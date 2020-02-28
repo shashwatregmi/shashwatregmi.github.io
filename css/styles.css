@@ -65,7 +65,7 @@ body{margin:0}
 #lead-content h1{
 	color:#fff;
 	font-weight:800;
-	font-size:5em;
+	font-size:4.2em;
 	text-transform:uppercase;
 	letter-spacing:0.03em;
 	line-height:1.2em;
@@ -76,7 +76,7 @@ body{margin:0}
 #lead-content h2{
 	color:#b5daf2;
 	font-weight:500;
-	font-size:2em;
+	font-size:1.6em;
 	margin-bottom:11px
 	margin:0;
 }
@@ -85,7 +85,7 @@ body{margin:0}
 	position:relative;
 	display: block;
 	margin: 0 auto;
-	font-size:2.2em;
+	font-size:1.8em;
 	font-weight:300;
 	margin:0 0 20px 0
 }
