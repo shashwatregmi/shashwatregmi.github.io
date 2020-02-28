@@ -25,7 +25,8 @@ body{margin:0}
 	border:3px solid #fff;
 	border-radius:30px;
 	font-size:1.25em;
-	transition:.5s ease all
+	transition:.5s ease all;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 .btn-rounded-white:hover{
@@ -62,25 +63,76 @@ body{margin:0}
 }
 
 #lead-content h1{
-	color:#fff;font-weight:900;
+	color:#fff;
+	font-weight:800;
 	font-size:5em;
 	text-transform:uppercase;
-	letter-spacing:0.05em;
-	line-height:0.9em;
+	letter-spacing:0.03em;
+	line-height:1.2em;
 	margin:0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #lead-content h2{
 	color:#b5daf2;
 	font-weight:500;
 	font-size:2em;
-	margin-bottom:12px
+	margin-bottom:11px
 	margin:0;
 }
+
+.heading{
+	position:relative;
+	display: block;
+	margin: 0 auto;
+	font-size:2.2em;
+	font-weight:300;
+	margin:0 0 30px 0
+}
+
+.self{
+	border-radius: 50%; 
+	position:relative; 
+	display: block;
+	margin: 0 auto;
+	padding-top:5px
+}
+
+.heading:after{
+	position:absolute;
+	content:'';top:100%;
+	height:1px;
+	width:50px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	background:#3498db
+}
+.background-alt{
+	background:#f2f2f5
+}
+
 #lead-overlay{position:absolute;height:100%;width:100%;top:0;right:0;bottom:0;left:0;background:rgba(60,93,93,0.75);z-index:1}
 #lead-down{position:absolute;left:0;right:0;width:100%;text-align:center;z-index:10;bottom:40px;color:#fff}
 #lead-down i{animation:pulsate 1.5s ease;animation-iteration-count:infinite;padding-top:5px}
 @keyframes pulsate{0%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}
+
+#about{
+	padding:75px 15px;
+	text-align:center;
+	border-bottom:1px solid #dcd9d9
+}
+
+#about h2{
+	color:#374054
+}
+
+#about p{
+	color:#74808a;
+	text-align: justify;
+	font-size: 1.1em;
+	margin:0
+}
 
 .social {
 	position:relative; 
@@ -106,45 +158,3 @@ body{margin:0}
 .social a:hover{
 	color:#696969
 }
-
-
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-button{overflow:visible}
-button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
-button[disabled],html input[disabled]{cursor:default}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
-input{line-height:normal}
-input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}
-input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}
-input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
-input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
-fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
-legend{border:0;padding:0}
-textarea{overflow:auto}
-optgroup{font-weight:bold}
-table{border-collapse:collapse;border-spacing:0}
-td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}
-body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}
-input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
-a{color:#337ab7;text-decoration:none}
-a:hover,a:focus{color:#23527c;text-decoration:underline}
-a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
-figure{margin:0}
-img{vertical-align:middle}
-.img-responsive{display:block;max-width:100%;height:auto}
-.img-rounded{border-radius:6px}
-.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}
-.img-circle{border-radius:50%}
-hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}
-.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
-.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
-[role="button"]{cursor:pointer}
