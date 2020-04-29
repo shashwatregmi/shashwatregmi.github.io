@@ -279,6 +279,20 @@ body.active{overflow:hidden;z-index:-1}.no-js
 	background:#f2f2f5
 }
 
+.edulogo {
+  position: relative;
+}
+
+.edulogo-txt {
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 1000em;
+}
+
+.edulogo-img {
+  display: inline-block;
+  position: absolute;
+}
 
 #lead-overlay{
 	position:absolute;
