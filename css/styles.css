@@ -146,6 +146,35 @@ body.active{overflow:hidden;z-index:-1}.no-js
 	margin-bottom:50px
 }
 
+
+#skills{
+	padding:50px 15px;
+	text-align:center
+}
+
+#skills h2{
+	color:#374054;
+	margin-bottom:50px
+}
+
+#skills ul{
+	display:block;
+	margin:0 auto;
+	padding:0;
+	max-width:800px
+}
+
+#skills li{
+	display:inline-block;
+	margin:7px;
+	padding:5px 10px;
+	color:#374054;
+	background:#e4e4ea;
+	list-style:none;
+	cursor:default;
+	font-size:1.2em
+}
+
 .education-block{
 	max-width:700px;
 	margin:0 auto 30px auto;
