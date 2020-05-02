@@ -418,6 +418,8 @@ body.active{overflow:hidden;z-index:-1}.no-js
 	#lead-content h2{font-size:1.75em}
 	#about{text-align:center}
 	#about p{text-align:left}
+	.socialfoot{text-align:center}
+
 }
 @media only screen and (max-width: 768px){
 
@@ -446,9 +448,11 @@ body.active{overflow:hidden;z-index:-1}.no-js
 		transform:none
 	}
 
-	footer{text-align:center}
+	footer{
+		text-align:center; 		
+		font-family: "Lucida Console", Monaco, monospace
+	}
 
-	.social{text-align:center}
 }
 
 #about{
