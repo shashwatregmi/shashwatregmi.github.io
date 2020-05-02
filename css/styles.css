@@ -419,6 +419,8 @@ body.active{overflow:hidden;z-index:-1}.no-js
 	#about{text-align:center}
 	#about p{text-align:left}
 	.socialfoot{text-align:center}
+	.socialfoot ul{margin:5px 0 0 0; padding-left: 0; text-align:center; list-style-type:none;}
+
 
 }
 @media only screen and (max-width: 768px){
