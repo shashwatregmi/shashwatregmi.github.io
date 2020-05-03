@@ -481,18 +481,20 @@ body.active{overflow:hidden;z-index:-1}.no-js
 }
 
 .socialfoot {
-	text-align:right;
+	text-align:center;
 }
 
 .socialfoot ul{
 	margin:5px 0 0 0;
 	padding: 0; 
 }
+
 .socialfoot li{
 	display:inline-block;
 	font-size:1.25em;
 	list-style:none
 }
+
 .socialfoot a{
 	display:block;
 	color:#ffffff;
@@ -527,4 +529,6 @@ body.active{overflow:hidden;z-index:-1}.no-js
     position: relative;        
     background: #1d6fa5;
     color: #fff;
+    bottom:0;
+  	left:0;
 }
