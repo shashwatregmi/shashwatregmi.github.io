@@ -2,4 +2,4 @@
 <h3>
 Personal Website</h3>
 
-<a href="shashwatregmi.github.io"><h3>Live at shashwatregmi.github.io</h3></a>
+<h3>Live at <a href="https://shashwatregmi.github.io/">shashwatregmi.github.io</h3></a>
